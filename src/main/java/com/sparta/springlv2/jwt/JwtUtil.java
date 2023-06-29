@@ -22,7 +22,6 @@ public class JwtUtil {
 
     public String extractUsername(JwtUtil.java 계속)
 
-```java
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
     }
