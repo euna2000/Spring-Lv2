@@ -5,6 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
+//  이 클래스는 실행하는 역할을 합니다.
 @EnableJpaAuditing
 @SpringBootApplication
 public class BlogApplication {
