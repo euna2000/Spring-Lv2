@@ -14,6 +14,9 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.function.Function;
 
+// JWT(JSON Web Token)를 생성, 추출 및 유효성 검사하는 유틸리티 기능을 제공합니다. 
+// JwtUtil 클래스는 secretKey라는 프로퍼티를 사용하여 JWT 서명을 위한 비밀 키를 가져옵니다.
+// JwtUtil 클래스는 extractUsername(), extractExpiration(), extractClaim(), extractAllClaims(), getKey(), isTokenExpired(), generateToken(), createToken() 및 validateToken() 등의 메서드를 포함하고 있습니다.
 @Component
 public class JwtUtil {
 
