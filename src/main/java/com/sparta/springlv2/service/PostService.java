@@ -22,6 +22,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
+// PostService 클래스는 게시글과 관련된 비즈니스 로직을 제공합니다. 
 @Service
 public class PostService {
 
