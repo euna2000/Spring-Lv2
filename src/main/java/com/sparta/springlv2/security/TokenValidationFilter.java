@@ -39,7 +39,7 @@ public class TokenValidationFilter extends OncePerRequestFilter {
                 // 여기서 UserDetails는 서비스에 따라 구현해야 합니다.
                 // SecurityContextHolder.getContext().setAuthentication(authentication);
             }
-        }
+        } 
 
         filterChain.doFilter(request, response);
     }
